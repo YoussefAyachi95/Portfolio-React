@@ -1,0 +1,11 @@
+#portfolio_image {
+    width: 400px;
+    z-index: 0;
+}
+
+#background_colored{
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-image: url('../assets/background.svg');
+}
