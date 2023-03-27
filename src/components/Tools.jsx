@@ -13,7 +13,7 @@ export default function Tools() {
 
   return (
     <section className='grid grid-cols-1 pt-24 fluid-container gap-y-10 gap-x-6 lg:grid-cols-3 ml-12 mb-36' data-aos="fade-up">
-        <h2 className='text-2xl font-semibold leading-9 tracking-tight text-gray-100 ml-12'>Tools I use:</h2>
+        <h2 className='text-2xl font-semibold leading-9 tracking-tight text-gray-100 ml-12 max-lg:ml-0'>Tools I use:</h2>
         <div className='prose-invert max-w-none lg:col-span-2 prose-gray prose-a:font-semibold prose-a:text-amber-500 hover:prose-a:text-amber-600'>
             <p className='w-9/12'>I get asked a lot about the things I use to create my designs and be productive. Here is a small list of some my favorite tools.</p>
             <div className='mt-6 not-prose'>
