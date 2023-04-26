@@ -1,3 +1,4 @@
+
  export const projectList = [
     {
         title: 'Iffy | Gif Search',
@@ -21,10 +22,18 @@
         title: 'Text Based Dungeon Crawler',
         description: "A group project where the objective was to build a mini game using plain Javascript in the terminal. The game allows the player to go through different rooms in where there are different enemies randomly generated that the player needs to defeat.",
         img: '../images/dungeon.png',
-        img_second: '',
         tools: 'Javascript and Node.js',
         link: 'https://github.com/YoussefAyachi95/Text-Based-Dungeon-Crawler',
         codeLink: 'https://github.com/YoussefAyachi95/Text-Based-Dungeon-Crawler'
+    },
+
+    {
+        title: 'Dassana Project Administrator',
+        description: "An group application project made with React and Firebase. This project allows you to create a user and manage your projects.",
+        img: '../images/dassana.png',
+        tools: 'React and Firebase',
+        link: 'https://github.com/YoussefAyachi95/dassana-project-administrator',
+        codeLink: 'https://github.com/YoussefAyachi95/dassana-project-administrator'
     },
     
 ]
