@@ -17,7 +17,7 @@ export default function Footer() {
                     </a>
                 </div>
             </div>
-            <div className='w-full p-4 mx-auto space-y-2 text-xs border-gray-900 fluid-container text-white/50 sm:space-y-0 sm:flex sm:flex-row sm:justify-center sm:border-solid md:border-t max-[640px]:ml-[35%]'>
+            <div className='w-full p-4 mx-auto space-y-2 text-xs border-gray-900 fluid-container text-white/50 sm:space-y-0 sm:flex sm:flex-row sm:justify-center sm:border-solid md:border-t max-[640px]:ml-[40%]'>
                 <div className='flex items-center space-x-3'>
                     <span>
                 © 2023
