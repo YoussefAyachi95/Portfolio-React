@@ -23,10 +23,12 @@ export default function Projects() {
                         <div className='absolute top-0 w-48 h-48 rounded-full bg-blue-500/30 md:w-96 md:h-96 -right-2 md:-right-4 filter blur-2xl opacity-60 ' />
                         <div className='absolute w-48 h-48 rounded-full bg-pink-700/30 md:w-96 md:h-96 -bottom-8 left-10 md:left-20 filter blur-2xl opacity-60 ' />
                         {/* <img src={project.img} alt="This is the project screenshot example" className='relative rounded-lg max-w-xs ml-4 hover:scale-110 border border-zinc-700'/> */}
-                        <div className='grid justify-center grid-cols-2 gap-8 lg:grid-cols-4 '>
-                            <img src={project.img} alt="This is the project screenshot example" className='relative rounded-lg hover:scale-110 border border-zinc-700'/>
-                            <img src={project.img_second} alt="This is the project screenshot example" className='relative rounded-lg hover:scale-110 border border-zinc-700 bg-transparent'/>
-                        </div>
+                        <a href={project.link} rel="noreferrer" target="_blank">
+                            <div className='grid justify-center grid-cols-2 gap-8 lg:grid-cols-4' id='image_container'>
+                                <img src={project.img} alt="This is the project screenshot example" className='relative rounded-lg hover:scale-110 border border-zinc-700 md:w-100%'/>
+                                <img src={project.img_second} alt="This is the project screenshot example" className='relative rounded-lg hover:scale-110 border border-zinc-700 bg-transparent'/>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div className='col-span-1 space-y-16 md:space-y-12 md:col-span-2'>

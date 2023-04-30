@@ -23,10 +23,12 @@ export default function Tools() {
                     {
                         skills.map(skill => (
                             <div key={skill.name} className='card'>
-                                <div className='rounded-xl p-3 flex space-x-2 items-center overflow-hidden h-full cursor-pointer border-solid border border-gray-600 hover:bg-fuchsia-600 w-full' data-aos="fade-up">
-                                <img src={skill.img} className='flex-shrink-0 h-6 w-6' alt="Logos of Frameworks, Programming Languages and different tools" />
-                                <p className='normalText ml-3 opacity-80'>{skill.name}</p>
-                                </div>
+                                <a href={skill.link} rel="noreferrer" target="_blank">
+                                    <div className='rounded-xl p-3 flex space-x-2 items-center overflow-hidden h-full cursor-pointer border-solid border border-gray-600 hover:bg-fuchsia-600 w-full' data-aos="fade-up">
+                                    <img src={skill.img} className='flex-shrink-0 h-6 w-6' alt="Logos of Frameworks, Programming Languages and different tools" />
+                                    <p className='normalText ml-3 opacity-80'>{skill.name}</p>
+                                    </div>
+                                </a>
                             </div>
                         ))
                     }
